@@ -6,10 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!--------------------- Swiper's css ----------------->
-  <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <!--------------------- output.css ----------------->
   <link rel="stylesheet" href="./output.css">
 
@@ -18,8 +15,8 @@
 
   <!--------------------- Remix icon ----------------->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.min.css" integrity="sha512-T7lIYojLrqj7eBrV1NvUSZplDBi8mFyIEGFGdox8Bic92Col3GVrscbJkL37AJoDmF2iAh81fRpO4XZukI6kbA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<!----Fontes----->
-<link rel="preconnect" href="https://fonts.googleapis.com">
+  <!----Fontes----->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lobster&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 
@@ -121,32 +118,32 @@
 
       </div>
       <div class="container">
-      <p class="text-slate-300 font-Nunito">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sed similique eius velit dicta sunt recusandae doloribus maiores, odio ea, minus dolor molestiae? Perferendis laudantium id corrupti repellat nesciunt voluptates!
-      </p>
+        <p class="text-slate-300 font-Nunito">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sed similique eius velit dicta sunt recusandae doloribus maiores, odio ea, minus dolor molestiae? Perferendis laudantium id corrupti repellat nesciunt voluptates!
+        </p>
 
-      <div id="ct-btns" class="flex flex-col gap-2 sm:flex-row md:gap-4 sm:pt-4 md:pt-4 lg:pt-4 xl:pt-8">
-        <button class="btn">
-          <span>Shop Now</span>
-          <i class="ri-leaf-line"></i>
-        </button>
-        <button class="btn btn_outline">
-          <span>Know More</span>
-          <i class="ri-leaf-line"></i>
-        </button>
+        <div id="ct-btns" class="flex flex-col gap-2 sm:flex-row md:gap-4 sm:pt-4 md:pt-4 lg:pt-4 xl:pt-8">
+          <button class="btn">
+            <span>Shop Now</span>
+            <i class="ri-leaf-line"></i>
+          </button>
+          <button class="btn btn_outline">
+            <span>Know More</span>
+            <i class="ri-leaf-line"></i>
+          </button>
+        </div>
+
+        <p id="paragrafo" class="text-xs font-jost text-slate-300 sm:pt-10 md:pt-4 lg:pt-4 xl:pt-8">
+          You will get 30-days free trial.
+        </p>
+
+        <div id="ct-redes" class="flex items-center gap-5 text-lg lg:pt-10">
+          <i class="ri-facebook-fill text-slate-300 hover:text-yellow-500 duration-300 cursor-pointer"></i>
+          <i class="ri-twitter-x-line text-slate-300 hover:text-yellow-500 duration-300 cursor-pointer text-base"></i>
+          <i class="ri-instagram-line text-slate-300 hover:text-yellow-500 duration-300 cursor-pointer"></i>
+          <i class="ri-linkedin-fill text-slate-300 hover:text-yellow-500 duration-300 cursor-pointer"></i>
+        </div>
       </div>
-
-      <p id="paragrafo" class="text-xs font-jost text-slate-300 sm:pt-10 md:pt-4 lg:pt-4 xl:pt-8">
-        You will get 30-days free trial.
-      </p>
-
-      <div id="ct-redes" class="flex items-center gap-5 text-lg lg:pt-10">
-        <i class="ri-facebook-fill text-slate-300 hover:text-yellow-500 duration-300 cursor-pointer"></i>
-        <i class="ri-twitter-x-line text-slate-300 hover:text-yellow-500 duration-300 cursor-pointer text-base"></i>
-        <i class="ri-instagram-line text-slate-300 hover:text-yellow-500 duration-300 cursor-pointer"></i>
-        <i class="ri-linkedin-fill text-slate-300 hover:text-yellow-500 duration-300 cursor-pointer"></i>
-      </div>
-    </div> 
     </section>
 
     <!--------------------- Services ----------------->
@@ -262,14 +259,14 @@
     <!--------------------- Popular ----------------->
     <section id="popular" class="bg-green-900">
 
-      <div class="popular__top flex flex-col items-center gap-3 text-center mb-10 md:mb-40">
+      <div id="ct-intro-card" class="popular__top flex flex-col items-center gap-3 text-center mb-10 md:mb-40 sm:pb-20">
         <h2 class="title">Your Choice Plant</h2>
         <p class="max-w-2xl">Follow instruction for more</p>
       </div>
 
-      <div class="container w-full grid grid-cols-1 gap-x-8 gap-y-36 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+      <div class="container w-full grid grid-cols-1 gap-x-8 gap-y-36 md:grid-cols-2 sm:mb-96 lg:grid-cols-3 xl:grid-cols-4">
         <!-----card1---->
-        <div class="popular__card bg-green-950 p-10 pt-24 rounded-md relative min-h-[300px] flex flex-col justify-between">
+        <div id="card-1" class="popular__card bg-green-950 p-10 pt-32 rounded-md relative min-h-[300px] flex flex-col justify-between">
           <img src="assets/img/cart-1.png" alt="cart imagem 1" class="w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-500">
           <p class="italic">Nephrolepis exaltata</p>
           <h3>Boston Fern</h3>
@@ -289,8 +286,8 @@
           </div>
         </div>
 
-         <!-----card2---->
-         <div class="popular__card bg-green-950 p-10 pt-24 rounded-md relative min-h-[300px] flex flex-col justify-between ">
+        <!-----card2---->
+        <div class="popular__card bg-green-950 p-10 pt-24 rounded-md relative min-h-[300px] flex flex-col justify-between ">
           <img src="assets/img/cart-2.png" alt="cart imagem 1" class="w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-500">
           <p class="italic">Ficus elastica</p>
           <h3>Rubber Plant</h3>
@@ -310,8 +307,8 @@
           </div>
         </div>
 
-         <!-----card3---->
-         <div class="popular__card bg-green-950 p-10 pt-24 rounded-md relative min-h-[300px] flex flex-col justify-between">
+        <!-----card3---->
+        <div class="popular__card bg-green-950 p-10 pt-24 rounded-md relative min-h-[300px] flex flex-col justify-between">
           <img src="assets/img/cart-3.png" alt="cart imagem 1" class="w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-500">
           <p class="italic">Spathiphyllum wallisii</p>
           <h3>Peace Lily</h3>
@@ -331,8 +328,8 @@
           </div>
         </div>
 
-         <!-----card4---->
-         <div class="popular__card bg-green-950 p-10 pt-24 rounded-md relative min-h-[300px] ">
+        <!-----card4---->
+        <div class="popular__card bg-green-950 p-10 pt-24 rounded-md relative min-h-[300px] ">
           <img src="assets/img/cart-4.png" alt="cart imagem 1" class="w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-500">
           <p class="italic">Adenium obesum</p>
           <h3>Desert Rose</h3>
@@ -438,43 +435,43 @@
         </div>
       </div>
     </section>
+  </main>
 
+  <!--------------------- Footer ----------------->
+  <footer class="bg-yellow-100 text-green-950 pt-20 pb-10 md:pt-28 relative">
 
-    <!--------------------- Footer ----------------->
-    <footer class="bg-yellow-100 text-green-950 pt-20 pb-10 md:pt-28 relative">
-      
-      <!----newsletter---->
-      <div class="container text-white absolute top-0 right-0 left-0 -translate-y-1/2 ms:mb-10">
-        <div class="bg-green-900 px-10 pt-5 pb-10 space-y-8 rounded-md">
-          <h3><span class="text-yellow-500">Subscribe</span> to our newsletter</h3>
+    <!----newsletter---->
+    <div class="container text-white absolute top-0 right-0 left-0 -translate-y-1/2 ms:mb-10">
+      <div class="bg-green-900 px-10 pt-5 pb-10 space-y-8 rounded-md">
+        <h3><span class="text-yellow-500">Subscribe</span> to our newsletter</h3>
 
-            <div class="flex flex-col gap-4 md:flex-row">
-              <input type="email" placeholder="Your Email Address" class="w-full px-5 py-3 text-green-900
+        <div class="flex flex-col gap-4 md:flex-row">
+          <input type="email" placeholder="Your Email Address" class="w-full px-5 py-3 text-green-900
               rounded-md outline-none">
-              <button class="flex items-center justify-center gap-5 bg-green-950 px-5 py-3 rounded-md hover:opacity-80 duration-300">
-                <span>Subscribe</span>
-                <i class="ri-send-plane-2-fill"></i>
-              </button>
-            </div>
+          <button class="flex items-center justify-center gap-5 bg-green-950 px-5 py-3 rounded-md hover:opacity-80 duration-300">
+            <span>Subscribe</span>
+            <i class="ri-send-plane-2-fill"></i>
+          </button>
         </div>
       </div>
+    </div>
 
-      <!----social icon---->
-      <div class="footer__icon container mt-32 mb-10">
-        <div class="border-b border-green-500 relative">
-          <div class="absolute top-0 transform -translate-y-1/2 left-0 right-0 max-w-36 mx-auto ms:mt-10">
-            <div class="bg-yellow-100 text-lg text-center space-x-2">
-              <i class="ri-facebook-fill hover:text-yellow-500 duration-300 cursor-pointer"></i>
-              <i class="ri-twitter-x-line hover:text-yellow-500 duration-300 cursor-pointer text-base"></i>
-              <i class="ri-instagram-line hover:text-yellow-500 duration-300 cursor-pointer"></i>
-              <i class="ri-linkedin-fill hover:text-yellow-500 duration-300 cursor-pointer"></i>
-            </div>
+    <!----social icon---->
+    <div class="footer__icon container mt-32 mb-10">
+      <div class="border-b border-green-500 relative">
+        <div class="absolute top-0 transform -translate-y-1/2 left-0 right-0 max-w-36 mx-auto ms:mt-10">
+          <div class="bg-yellow-100 text-lg text-center space-x-2">
+            <i class="ri-facebook-fill hover:text-yellow-500 duration-300 cursor-pointer"></i>
+            <i class="ri-twitter-x-line hover:text-yellow-500 duration-300 cursor-pointer text-base"></i>
+            <i class="ri-instagram-line hover:text-yellow-500 duration-300 cursor-pointer"></i>
+            <i class="ri-linkedin-fill hover:text-yellow-500 duration-300 cursor-pointer"></i>
           </div>
         </div>
       </div>
+    </div>
 
-      <!----Content---->
-     <div class="footer__content container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 text-center md:text-start">
+    <!----Content---->
+    <div class="footer__content container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 text-center md:text-start">
 
       <!---- item 1 --->
       <div>
@@ -484,57 +481,57 @@
         </div>
       </div>
 
-        <!---- item 2 ----->
-        <div>
-          <p class="mb-5 font-bold text-xl">Quick Link</p>
+      <!---- item 2 ----->
+      <div>
+        <p class="mb-5 font-bold text-xl">Quick Link</p>
 
-          <div class="flex flex-col gap-1">
-            <a href="#">Plants</a>
-            <a href="#">Flowers</a>
-            <a href="#">Gerdening</a>
-            <a href="#">Seeds</a>
-            <a href="#">Shipping</a>
-          </div>
+        <div class="flex flex-col gap-1">
+          <a href="#">Plants</a>
+          <a href="#">Flowers</a>
+          <a href="#">Gerdening</a>
+          <a href="#">Seeds</a>
+          <a href="#">Shipping</a>
         </div>
+      </div>
 
-        <!---- item 3 ----->
-        <div>
-          <p class="mb-5 font-bold text-xl">Popular Services</p>
+      <!---- item 3 ----->
+      <div>
+        <p class="mb-5 font-bold text-xl">Popular Services</p>
 
-          <div class="flex flex-col gap-1">
-            <a href="#">Tree Planting</a>
-            <a href="#">Grass Cutting</a>
-            <a href="#">Weeds Control</a>
-            <a href="#">Project</a>
-          </div>
+        <div class="flex flex-col gap-1">
+          <a href="#">Tree Planting</a>
+          <a href="#">Grass Cutting</a>
+          <a href="#">Weeds Control</a>
+          <a href="#">Project</a>
         </div>
+      </div>
 
-        <!---- item 4 ----->
-        <div>
-          <p class="mb-5 font-bold text-xl">Contact Us</p>
+      <!---- item 4 ----->
+      <div>
+        <p class="mb-5 font-bold text-xl">Contact Us</p>
 
-          <div class="flex flex-col gap-1">
-            <a href="tel:+5531996162505">+55 (31) 99616-2505</a>
-            <a href="mailto:matheus97salvatory@gmail.com">matheus97salvatory@gmail.com</a>
-            <br>
-            <p>Minas Gerais - Contagem</p>
-            <a href="#">Project</a>
-          </div>
+        <div class="flex flex-col gap-1">
+          <a href="tel:+5531996162505">+55 (31) 99616-2505</a>
+          <a href="mailto:matheus97salvatory@gmail.com">matheus97salvatory@gmail.com</a>
+          <br>
+          <p>Minas Gerais - Contagem</p>
+          <a href="#">Project</a>
         </div>
-     </div>
+      </div>
+    </div>
 
-     <!-----copyright------>
-     <div class="copy__right container">
+    <!-----copyright------>
+    <div class="copy__right container">
       <p class="text-center mt-10 opacity-50">Copyright &copy; 2025. All rights reserved.</p>
-     </div>
+    </div>
 
-     <!-----Floral image------>
-     <div class=" footer__floral absolute bottom-0 left-0 opacity-20 pointer-events-none">
+    <!-----Floral image------>
+    <div class=" footer__floral absolute bottom-0 left-0 opacity-20 pointer-events-none">
       <img src="assets/img/floral-1.png" alt="floral image1" class="w-full lg:w:1/2">
-     </div>
-    </footer>
+    </div>
+  </footer>
 
-  </main>
+
 
   <!-------------------------------scroll up------------------------------------------>
   <a href="" class="fixed right-4 -bottom-1/1 bg-yellow-500 shadow-sm inline-block px-3 py-1 md:px-4 md:py-2
@@ -542,15 +539,15 @@
     <i class="ri-arrow-up-line"></i>
   </a>
 
- <!-------------------------------ScrollReveal------------------------------------------>
-<script src="assets/js/scrollreveal.min.js"></script>
+  <!-------------------------------ScrollReveal------------------------------------------>
+  <script src="assets/js/scrollreveal.min.js"></script>
 
   <!-------------------------------Swiper JS------------------------------------------>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
   <!-------------------------------Main JS------------------------------------------>
   <script src="main.js"></script>
-  
+
 </body>
 
 </html>
